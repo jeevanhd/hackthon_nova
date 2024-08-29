@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cha_bot.css">
+    <script src="chat_bot.js" async></script>
+</head>
+<body>
+    <!-- button to open bot 👇 -->
+    <img src="/hackthon_nova/chat_bot/chatbot.png" alt="" id="chatbotBtn" class="chatbot-button">
+
+    <div id="chatbotPopup" class="chatbot-popup">
+        <!-- the window👆 -->
+
+
+        <div class="chatbot-header">
+
+            <img src="/hackthon_nova/chat_bot/chatbot.png" alt="">
+            <span>Notify Nova</span>
+            <button id="closeBtn" class="close-button">&times;</button>
+        </div>
+
+        <div class="chatbot-body">
+            <div class="messages">
+                <p class="bot-message">Hello there! Nice to meet you.</p>
+                <p class="bot-message">What brings you here today?
+                    Need any help?. Let me know</p>
+            </div>
+
+            <div class="links">
+                <button class="link l1">Book Tickets</button>
+                <button class="link l2">Explore More</button>
+              
+          ` </div>
+        </div>
+
+        <div class="chatbot-footer">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <i class="fa-solid fa-share"></i>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
